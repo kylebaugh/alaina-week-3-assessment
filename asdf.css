@@ -1,0 +1,26 @@
+.mainDiv{
+    height: 700px;
+    width:800px;
+    background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    height: 200px;
+    width:200px;
+    background-color: red;
+}
+
+.box2{
+    height: 200px;
+    width:200px;
+    background-color: yellow;
+}
+
+.box3{
+    height: 200px;
+    width:200px;
+    background-color: green;
+}

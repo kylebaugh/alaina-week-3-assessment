@@ -1,0 +1,224 @@
+
+
+body {
+    background-color: rgb(224, 143, 85);     /*Unable to move elements when resizing browser*/
+}
+
+nav {
+	border-bottom: 2px solid orange;   /*Tried making border shorter, was not finding the correct way */
+}
+
+ol {
+	padding-left: 0;
+    text-align: center;
+
+}
+
+.crumb {
+    display: inline;
+    font-size: larger;
+    margin-right: 2em;
+}
+
+#textBox {
+    position: relative;
+    left:90vw;
+    /* left: 900px; */
+    top: -35px;
+    border: dotted yellowgreen
+}
+
+h1 {
+    color: rgb(48, 17, 88);
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+
+h1 {
+    
+    animation-name: spin;
+    animation-duration: 8s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear; 
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
+
+h3 {
+    display: inline;
+   
+}
+
+.profileH2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    /* background-color: red; */
+}
+ 
+
+#skillsList {
+ /* position: absolute; */
+ /* left: 400px; */     
+ text-align: center;    
+}
+
+
+#interestList {
+    /* position: absolute; */
+    /* left: 600px; */
+    text-align: center;    
+
+}
+
+
+#goalsList {
+    /* position: absolute; */
+    /* left: 800px; */
+    text-align: center;    
+
+}
+p {
+    color: rgb(27, 32, 31);
+    text-align: center;
+    position:relative;
+    bottom: 50px;
+    font-family:fantasy
+}
+
+#firstList {
+    font-size: 20px;
+    position:relative;
+    bottom: 40px;
+}
+
+#secondList {
+    font-size: 20px;
+    position:relative;
+    bottom: 40px;
+}
+
+#thirdList {
+    font-size: 20px;
+    position:relative;
+    bottom: 40px;
+}
+
+
+.allFavorites{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:80vw;
+    margin-left: 10vw;
+}
+
+
+
+
+#color {
+text-align: center;
+/* position:relative;
+top: 250px;
+left: 400px; */
+}
+
+#place {
+text-align: center;
+/* position:relative;
+top: 250px;
+left: 440px; */
+}
+
+#ritual {
+text-align: center;
+/* position: relative;
+top: 250px;
+left: 500px; */
+}
+
+/* .flex-container {
+    display:flex;
+  
+} */
+
+.flex-item {
+    background-color: rgb(247, 247, 144);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.profileBody{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.profilePictures{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-evenly;
+    width:80vw;
+    /* margin-left: 10vw; */
+    margin-top: 10vh;
+}
+
+#orchid{
+height: 200px;
+width: 200px;
+/* position: relative;
+top: 300px;
+left: 600px; */
+border-radius: 8px;
+}
+
+#concert{
+    height: 200px;
+    width: 200px;
+    /* position: relative;
+    top: 300px;
+    left: 650px; */
+    border-radius: 8px;
+}
+
+#wood{
+    height: 200px;
+    width: 200px;
+    /* position: relative;
+    top: 300px;
+    right: 50px; */
+    border-radius: 8px;
+}
+
+/* .btn {
+    background-color: yellow;
+    font-size: 15px;
+} */
+
+
+
+/* .btn{
+    /* display:flex; */
+    
+    /* flex-direction:
+    flex-wrap: wrap;
+    justify-content: center;
+     align-items: center;
+}  */ 
